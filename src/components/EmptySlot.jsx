@@ -9,10 +9,10 @@ const EmptySlot = (props) =>{
         }, randSeconds)
         return () => clearTimeout(timer)
     })
-    
+
     return (
         <div>
-            <img src={MoleHill} />
+            <img style={{'width': '200px'}} src={MoleHill} />
         </div>
     )
 }

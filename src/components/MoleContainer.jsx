@@ -13,7 +13,7 @@ const MoleContainer = (props) => {
     let displayMole = theMole ? <Mole setScore={props.setScore} toggle={setTheMole} handleClick={handleClick} /> : <EmptySlot toggle={setTheMole} />
     
     return (
-        <div >
+        <div style={{'display': 'inline-block', 'width': '200px', 'margin': '10px', 'backgroundColor': '#ececec', 'border-radius': '100%'}}>
             {displayMole}
         </div>
     )

@@ -9,10 +9,10 @@ const Mole = (props) => {
         }, randSeconds)
         return () => clearTimeout(timer)
     })
-    
+
     return (
-        <div>
-            <img  src={moleImage} onClick={props.handleClick} />
+        <div >
+            <img  style={{'width': '200px'}} src={moleImage} onClick={props.handleClick} />
         </div>
     )
 }
